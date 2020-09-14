@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;    
+}
+
+h2{
+    font: bold 14px sans-serif;
+}
+
+header, section,  footer,  aside,  nav, article, hgroup{
+    display: block;
+}
+
+/*'display: block;': para asegurarme que todos los elementos sean en bloque, es decir, que estén uno debajo de otro
+
+https://www.color-hex.com/
+https://flatuicolors.com/*/
+
+body{
+    text-align: center;
+    background-color: #2f3542;
+}
+
+.agrupar{
+    width: 90%;
+    border: 1px solid black;
+    margin: 15PX auto;
+    background-color: #57606f;
+}
+
+.header{
+    background-color: #5352ed;
+    border: 1px solid #a18181;
+    padding: 20px;
+}
+
+.header h1{
+    text-align: left;
+    font-size: 40px;
+    font-family: monospace;
+    color: #ea8685;
+}
+
+.menu{
+    background-color: #ff6b81;
+    padding: 5px 15px;
+    text-align: right;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+
+
+}
+/* 'display: inline-block;' Que estén en bloque pero a su vez uno al lado del otro*/
+
+.seccion{
+    margin: 20px;
+    width: 65%;
+    float: left;
+   
+}
+
+
+.columna{
+    width: 30%;
+    float: left;
+    background-color: #1e90ff;
+    margin: 20px 0;
+}
+
+.columna blockquote {
+    border: 1px solid #94b7f6;
+    padding: 40px;
+    background-color: #2ed573;
+    margin: 20px;
+}
+
+.columna p {
+    border: 1px solid #94b7f6;
+    padding: 40px;
+    background-color: #2ed573;
+    margin: 20px;
+}
+
+article{
+    background-color: #ff4757;
+    border: 1px solid #ff6b81;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+time{
+    color: #f8a5c2;
+
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+article hgroup{
+    margin: 10px 15px;
+    padding-bottom: 10px;
+}
+
+article p{
+    margin-top: 15px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin:  auto;
+    border: 3px solid #f8a5c2;
+}
+
+.pie{
+    clear: both;
+    padding: 20px;
+    background-color: #546de5;
+    color: #f8a5c2;
+}
