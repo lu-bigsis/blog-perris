@@ -18,9 +18,7 @@ header, section,  footer,  aside,  nav, article, hgroup{
 }
 
 /*'display: block;': para asegurarme que todos los elementos sean en bloque, es decir, que estén uno debajo de otro
-
-https://www.color-hex.com/
-https://flatuicolors.com/*/
+*/
 
 body{
     text-align: center;
@@ -32,24 +30,24 @@ body{
     width: 90%;
     border: 1px solid black;
     margin: 15PX auto;
-    background-color: #faf681;
+    background-color: #fffee6;
 }
 
 .header{
-    background-color: #ff6b81;
+    background-color: #867ae9;
     border: 1px solid #a18181;
     padding: 20px;
 }
 
 .header h1{
     text-align: left;
-    font-size: 40px;
+    font-size: 35px;
     font-family: monospace;
     color: 	#fbf766;
 }
 
 .menu{
-    background-color: #ffaba6;
+    background-color: #ebe9fb;
     padding: 0;
     text-align: right;
     margin: 0;
@@ -70,14 +68,13 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: #57606f;
-    font-size: 20px;
+    font-size: 15px;
     padding: 8px 10px;
     display: inline-block;
 }
 
 nav ul li a:hover{
-    background-color:#ff6b81;
-    color: #fbf766;  
+  background-color: #fcf883; 
 
 }
 
@@ -93,39 +90,39 @@ nav ul li a:hover{
     width: 30%;
     height: 912px;
     float: left;
-    background-color: #fbaeb4;
+    background-color: #d7d3f8;
     margin: 20px 0;
 }
 
 .columna blockquote {
 
     padding: 40px;
-    background-color: #fffa77;
+    background-color: #afa7f1;
     margin: 20px;
 }
 
 .columna p {
     
     padding: 40px;
-    background-color: #fffa77;
+    background-color: #afa7f1;
     margin: 20px;
 }
 
 article{
-    background-color: #f9e3b8;
-    border: 1px solid #ff8e97;
+    background-color: #fefee6;
+    border: 1px solid #faf338;
     padding: 20px;
     margin-bottom: 15px;
 }
 
 time{
-    color: #ff6b81;
+    color: #c6cad2;
 
 }
 article footer{
     text-align: right;
     margin-top: 20px;
-    color: #ff8e97;
+    color: #c6cad2;
 }
 
 article hgroup{
@@ -143,7 +140,7 @@ img{
     height: 200px;
     display: block;
     margin:  auto;
-    border: 4px solid yellow;
+    border: 2px solid  #fcf883;
 }
 
 .pie{
