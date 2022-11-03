@@ -44,7 +44,7 @@ header{
     -webkit-text-fill-color: transparent;
 }
 
-/*---------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
 
 
 body{
@@ -59,97 +59,60 @@ body{
     margin: 15PX auto;
     background-color: #fefef3;
 }
-/*
-.header{
-    background-color: #867ae9;
-    border: 1px solid #a18181;
-    padding: 30px;
-    
-}
 
-.header h1{
-    text-align: center;
-    font-size: 39px;
-    font-family: monospace;
-    color: 	#fbf766;
-}
-*/
-/*
-.menu{
-    background-color: #ebe9fb;
-    text-align: center;
-    
-}
-.menu ul li{
-    display: inline;
-}
-
-.menu li{
-    list-style: none;
-    padding: 5px;
-    font: bold 14px verdana;
-    display: inline-block;
-}
-/* 'display: inline-block;' Que estén en bloque pero a su vez uno al lado del otro*/
-
-/*
-.menu ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #57606f;
-    font-size: 15px;
-    padding: 8px 10px;
-    display: inline-block;
-}
-
-nav ul li a:hover{
-  background-color: #fcf883; 
-
-}
-
-*/
-.seccion{
+.seccion-main{
     margin: 20px;
     width: 65%;
     float: left;
    
 }
 
-
-.columna{
-    width: 30%;
-    height: 912px;
-    float: left;
-    background-color: #d7d3f8;
-    margin: 20px 0;
-}
-
-.columna blockquote {
-
-    padding: 40px;
-    background-color: #afa7f1;
-    margin: 20px;
-}
-
-.columna p {
-    
-    padding: 40px;
-    background-color: #afa7f1;
-    margin: 20px;
-}
-
-article{
+.seccion-main .articulos-varios{
     background-color: #fcfcf8;
     border: 1px solid #faf338;
     padding: 20px;
     margin-bottom: 15px;
 }
 
+.seccion-main .articulos-varios i{
+    font-size: 32px;
+    padding-bottom: 12px;
+    color: #000;
+}
+
+/*----------------------------------------------------------------------------ARTÍCULO-BIENVENIDA---------------------------------------*/
+.seccion-main .artículo1 .articulo-uno h1{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.seccion-main .artículo1 .articulo-uno h2{
+    font-size: 85px;
+    margin-bottom: 30px;
+    font-family: 'Poor Story', cursive;
+    
+}
+
+
+.artículo1 p{
+    padding: 15px 0 30px 0;
+    color: #2f3542;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
 time{
     color: #c6cad2;
-
+    text-align: right;
+    padding: 10px;
 }
-article footer{
+
+article .pie-articulos{
     text-align: right;
     margin-top: 20px;
     color: #c6cad2;
@@ -158,30 +121,150 @@ article footer{
 article hgroup{
     margin: 10px 15px;
     padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+article hgroup h1{
+    color: #535967;
+    font-size: 50px;
+    line-height: 1.5;
+    font-family: 'Poor Story', cursive;
 }
 
 article p{
     margin-top: 15px;
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 }
-/*
-article .img-ppal img{
-  width: 300px;
-  height: 300px;
-}*/
-
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display: block;
     margin:  auto;
-    border: 2px solid  #fcf883;
+    border: 6px solid  #fcf883;
+    border-radius: 2px;
 }
 
+
+
+
+/*-------------------------------------------------------------------------------------ASIDE---------------------------------------------*/
+
+.columna{
+    width: 30%;
+   /* height: auto;*/
+    float: left;
+    background-color: #000;
+    margin: 40px 0;
+    color: #2f3542;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.columna .cont-aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    /*border: 1px solid yellow;*/
+    background: #000;
+    
+}
+
+
+.columna .cont-aside .serviciosCaninos{
+    height: 420px;
+    width: 90%;
+    border: 1px solid #fcf883;
+    margin: 30px auto;
+    padding: 20px;
+    
+}
+
+.columna .cont-aside .serviciosCaninos h4{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 19px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.columna .cont-aside .serviciosCaninos nav{
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+    
+}
+
+.columna .cont-aside .serviciosCaninos .menu a{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.columna .cont-aside .serviciosCaninos .menu{
+    /*border: 1px solid orange;*/
+    margin-bottom: 50px;
+}
+
+.columna .cont-aside .serviciosCaninos .sitioWeb{
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.columna .cont-aside .serviciosCaninos .sitioWeb:hover{
+    background: #fff;
+    color: #000;
+
+}
+
+.columna .cont-aside .codigo{
+    width: 90%;
+   /* border: 2px solid blue;*/
+    margin: 10px auto;
+
+}
+
+.columna .cont-aside .codigo img{
+    width: 100%;
+    height: 400px;
+   /* border: 2px solid green;*/
+    margin: auto;
+    border: none;
+    padding-bottom: 20px;
+}
+
+
+
+/*----------------------------------------------------------------------------------FOOTER----------------------------------------*/
 .pie{
     clear: both;
     padding: 20px;
     background-color: #01214f;
     color: #fbf766;
 }
+
+.pie a i{
+    letter-spacing: 3px;
+    font-size: 60px;
+    padding: 30px 50px 20px 0;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    color: #fbf766;
+}
+
+.pie a i:hover{
+    color: #fff;
+}
+

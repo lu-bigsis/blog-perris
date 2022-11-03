@@ -7,11 +7,22 @@
     <meta name="keywords" content="pinscher, perros, cuidados, características">
     <title>Bati - Clarita</title>
     <link rel="stylesheet" href="estilos.css">
-    <!-------------------------------------------------------------------------------FUENTES-------------------->
+<!-------------------------------------------------------------------------------FUENTES-PORTADA------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+<!-----------------------------------------------------------------------------FUENTES GENERALES------------------------------------------------------------>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poor+Story&display=swap" rel="stylesheet">
+
+<!--------------------------------------------------------------------------------------------------------------------------->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
     <div class="cont-agrupar">
         <header">
@@ -19,38 +30,30 @@
                 <h1 class="texto">Bati - Clarita</h1>
             </div>
         </header>
-    <!------------
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotras</a></li>
-                <li><a href="#">Siguenos</a></li>
-            </ul>
-        </nav>
+   
+ <!-----------------------------------------------------------------------MAIN-ARTÍCULO------------------------------------->
+        <section class="seccion-main">
 
-        ----->
-    <!-----------------------------------------------------------------------MAIN-------------------------------------->
-        <section class="seccion">
-
-            <article>
-                <hgroup>
+            <article class="artículo1">
+                <hgroup class="articulo-uno">
                     <h1>Bienvenidos,</h1>
                     <h2> somos Bati y Clarita</h2>
                 </hgroup>
-                <img src="bati.clarita.jpg" class="img-ppal">
-                <time datetime="13-10-2022">Publicado 13-09-2020</time>
+                
+                
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis distinctio sit, 
                     maxime totam et repudiandae dignissimos rerum sunt dolorem perspiciatis delectus
                      iste voluptates, dicta magnam dolores voluptatibus repellat vitae consequuntur!</p>
                
-                <footer>
-                    <p>Comentarios (0)</p>
-                </footer>
-            </article> 
+           </article> 
 
-            <article>
+<!---------------------------------------------------------------------------------ARTICULOS-GENERALES---------------------------------->
+            
+            <article class="articulos-varios">
                 <hgroup>
-                    <h1>Yo soy Bati</h1>
+                    <h1>Yo soy Bati,</h1>
+                    
+                    <i class="fa-solid fa-crown"></i>
                     <h2>La Reina Batata</h2>
                 </hgroup>
                 <img src="img/bati.jpg">
@@ -60,13 +63,15 @@
                 <p>Me hago entender perfectamente cuando quiero algo, y como toda una buena reina, lo consigo. Es decir, aviso cuando es la hora de mi comida o cuando tengo frío y necesito que me pongan mi ropita. También me gusta decidir hacia donde caminar y tiro y tiro de la correa. Incluso amo quedarme parada  en todas las esquinas y en todas las verdulerías para que me regalen tomatitos cherry. </p>
                 <p>Frase de cariño para Bati "Panza con panza, corazón con corazón"</p>
                
-                <footer>
+                <footer class="pie-articulos">
                     <p>Comentarios (0)</p>
-                </footer>
+                </footer >
+
             </article>   
-            <article>
+            <article class="articulos-varios">
                 <hgroup>
-                    <h1>Yo soy Clarita</h1>
+                    <h1>Yo soy Clarita,</h1>
+                    <i class="fa-solid fa-dog"></i>
                     <h2>La pequeñita</h2>                   
                 </hgroup>
                 <img src="img/clarita.jpg">
@@ -79,22 +84,43 @@
                 <p>Frase de cariño para Clarita: "Qué bonitos ojos tienes, debajo de esas dos orejas"</p>
 
                
-                <footer>
+                <footer class="pie-articulos">
                     <p>Comentarios (0)</p>
                 </footer>
             </article>   
             
-
-  <!--------------------------------------------------------------------------------------------------ASIDE--------->          
         </section>
+  <!--------------------------------------------------------------------------------------------------ASIDE---------------------->          
+        
+
         <aside class="columna">
-            <p>Archivo</p>
-    
-            <blockquote cite="">whatss</blockquote> 
-        </aside>
-    
+            <div class="cont-aside">
+                <div class="serviciosCaninos">
+                    <h4>Servicios Caninos</h4>
+                    <nav class="menu">
+                        <a href="#">Guardería</a>
+                        <a href="#">Clínica Veterinaria</a>
+                        <a href="#">Farmacia</a>
+                        <a href="#">Baño y Peluquería</a>
+                        <a href="#">Paseos</a>
+                        <a href="#">Adiestramiento</a>
+                    </nav>
+                    <a href="https://lubigsis.github.io/serviciosCaninos/" class="sitioWeb">Ir al sitio</a>
+                </div>
+                <div class="codigo">
+                    <img src="codigo.jpg" alt="código qr instagram perritas">
+                </div>
+            </div>
+
+         </aside>
+  <!------------------------------------------------------------------------------------------------FOOTER--------------------------->  
         <footer class="pie">
-            <p>Creative Commons</p>
+            
+              <a href="https://www.instagram.com/bati.clarita/"><i class="fa-brands fa-instagram"></i></a>
+
+               <a href="https://www.tiktok.com/@bati.clarita?_t=8X2O52dn7vq&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            
+            
         </footer>
     
         <!--'hgroup': para no darle el mismo nivel de jerarquía que al h1 principal
