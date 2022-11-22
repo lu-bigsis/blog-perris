@@ -11,6 +11,30 @@ header, section,  footer,  aside,  nav, article, hgroup{
 /*'display: block;': para asegurarme que todos los elementos sean en bloque, es decir, que estén uno debajo de otro
 */
 
+
+body{
+    text-align: center;
+    background-color: #2f3542;
+    color: #57606f;
+    font-size: 16px;
+    max-width: 75em;
+    margin: auto;
+}
+
+.cont-agrupar{
+    width: 98%;
+    max-width: 75em;
+    /*border: 3px dashed black;*/
+    margin: 15px auto;
+    background-color: #fefef3;
+}
+
+.grupo-responsive{
+    width: 100%;
+    padding: 4px;
+   /* border: 2px solid brown;*/
+}
+
 /*-----------------------------------------------------------------TEXTO-HEADER--------------------------------*/
 header{
     color: #fff;
@@ -24,7 +48,8 @@ header{
     min-height: 100vh;
     display: flex;
     align-items: center;
-   /* border: 2px solid blue;*/
+    flex-wrap: wrap;
+    /*border: 2px solid blue;*/
 }
 
 .texto{
@@ -32,9 +57,9 @@ header{
     color: transparent;
     text-align: center;
     text-transform: uppercase;
-    font-size: 315px;
+    font-size: 19.6875em;
     line-height: 1.1;
-    letter-spacing: 2px;
+    
     font-weight: bold;
     background-image: url(uno.JPG);
     background-size: cover;
@@ -47,24 +72,12 @@ header{
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
 
-body{
-    text-align: center;
-    background-color: #2f3542;
-    color: #57606f;
-}
-
-.cont-agrupar{
-    width: 90%;
-   /* border: 3px dashed black;*/
-    margin: 15PX auto;
-    background-color: #fefef3;
-}
 
 .seccion-main{
-    margin: 20px;
+    margin: 15px;
     width: 65%;
     float: left;
-   
+   /* border: 2px solid red;*/
 }
 
 .seccion-main .articulos-varios{
@@ -75,20 +88,20 @@ body{
 }
 
 .seccion-main .articulos-varios i{
-    font-size: 32px;
+    font-size: 2em;
     padding-bottom: 12px;
     color: #000;
 }
 
 /*----------------------------------------------------------------------------ARTÍCULO-BIENVENIDA---------------------------------------*/
 .seccion-main .artículo1 .articulo-uno h1{
-    font-size: 30px;
+    font-size: 1.875em;
     margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .seccion-main .artículo1 .articulo-uno h2{
-    font-size: 85px;
+    font-size: 5.3125em;
     margin-bottom: 30px;
     font-family: 'Poor Story', cursive;
     
@@ -100,7 +113,7 @@ body{
     color: #2f3542;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
@@ -128,7 +141,7 @@ article hgroup{
 
 article hgroup h1{
     color: #535967;
-    font-size: 50px;
+    font-size: 3.125em;
     line-height: 1.5;
     font-family: 'Poor Story', cursive;
 }
@@ -136,7 +149,7 @@ article hgroup h1{
 article p{
     margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 1.0625rem;
 }
 
 img{
@@ -145,7 +158,7 @@ img{
     display: block;
     margin:  auto;
     border: 6px solid  #fcf883;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 
@@ -153,15 +166,21 @@ img{
 
 /*-------------------------------------------------------------------------------------ASIDE---------------------------------------------*/
 
+.aside-responsive{
+    width: 31%;
+    float: right;
+    margin: 30px 0px;
+}
 .columna{
-    width: 30%;
+    width: 100%;
    /* height: auto;*/
-    float: left;
+   
     background-color: #000;
-    margin: 40px 0;
+    
     color: #2f3542;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+  /* border: 3px solid purple;*/
 }
 
 .columna .cont-aside{
@@ -177,7 +196,7 @@ img{
 
 
 .columna .cont-aside .serviciosCaninos{
-    height: 420px;
+    height: 26.25rem;
     width: 90%;
     border: 1px solid #fcf883;
     margin: 30px auto;
