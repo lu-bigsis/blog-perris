@@ -122,7 +122,7 @@ header{
 time{
     color: #c6cad2;
     text-align: right;
-    padding: 10px;
+    padding: 20px;
 }
 
 article .pie-articulos{
@@ -153,12 +153,13 @@ article p{
 }
 
 img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     display: block;
     margin:  auto;
-    border: 6px solid  #fcf883;
+    border: 6px solid  #e00bef;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 
@@ -198,7 +199,7 @@ img{
 .columna .cont-aside .serviciosCaninos{
     height: 26.25rem;
     width: 90%;
-    border: 1px solid #fcf883;
+    border: 1px solid #e00bef;
     margin: 30px auto;
     padding: 20px;
     
@@ -242,7 +243,7 @@ img{
 }
 
 .columna .cont-aside .serviciosCaninos .sitioWeb:hover{
-    background: #fff;
+    background: #e00bef;
     color: #000;
 
 }
@@ -270,12 +271,12 @@ img{
     clear: both;
     padding: 20px;
     background-color: #01214f;
-    color: #fbf766;
+    color: #e00bef;
 }
 
 .pie a i{
     letter-spacing: 3px;
-    font-size: 60px;
+    font-size: 40px;
     padding: 30px 50px 20px 0;
     text-align: center;
     margin: auto;
@@ -284,6 +285,6 @@ img{
 }
 
 .pie a i:hover{
-    color: #fff;
+    color: #e00bef;
 }
 
