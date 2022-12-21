@@ -136,11 +136,11 @@
         margin-top: 15px;
         
     }
-
+/*
     img{
         width: 200px;
         height: 200px;
-        border: 2px solid  #fcf883;
+       /* border: 2px solid  #fcf883;*/
         
     }
 
@@ -180,7 +180,7 @@
 
     .columna .cont-aside .codigo{
             width: 60%;
-        /* border: 2px solid blue;*/
+            /*border: 2px solid blue;*/
             margin: 20px auto;
         
     }
@@ -203,7 +203,7 @@
             
     }
 
-    }
+    
 
 /*-----------------------------------main----*/
 
@@ -219,6 +219,15 @@
     width: 100%;
     margin: auto;
    }
+
+   img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid  #e00bef;
+    
+}
+
+
   
    .grupo-responsive .main-responsive .seccion-main{
     padding: 3px;
@@ -276,6 +285,25 @@
 
 }
 
+    
+/*--------------------------------------------------------------------------------------------------375px-------------*/
+@media screen and (max-width: 375px){
+    .texto{
+        font-size: 16em;
+    }
+
+    .columna .cont-aside .codigo{
+        width: 90%;
+       /* border: 2px solid blue;*/
+        margin: 20px auto;
+    
+        }
+    
+
+}
+
+
+
 /*--------------------------------------------------------------------LANDSCAPE-----------------------------*/
 
 /*---------------------------------------------------------------------------------------768px----------------------*/
@@ -288,5 +316,12 @@
     .texto{
         font-size: 15em;
     }
+
+    .columna .cont-aside .codigo img{
+        width: 100%;
+       
+    
+        }
+    
 
 }
